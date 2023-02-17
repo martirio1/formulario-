@@ -50,7 +50,3 @@ function mostrarMensajeError(claseInput, mensaje) {
   elemento.lastElementChild.innerHTML = mensaje;
 }
 
-function enviarFormulario() {
-  form.reset();
-  form.lastElementChild.innerHTML = "Listo !!";
-}
