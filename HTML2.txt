@@ -1,0 +1,40 @@
+<html lang="es">
+	<head>
+	  <meta charset="UTF-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	  <title>Formulario Registro</title>
+	  <link rel="stylesheet" href="css/estilos.css">
+	</head>
+	<body>
+	  <div class="container">
+	    <form action="" class="form" id="form" autocomplete="off">
+	      <p class="form-titulo">Create Account</p>
+	      <div class="form-input myname">
+	        <input type="text" id="myname">
+	        <label for="myname">Nombre</label>
+	        <p class="mensajeError"></p>
+	      </div>
+	      <div class="form-input email">
+	        <input type="email" id="email">
+	        <label for="email">Email</label>
+	        <p class="mensajeError"></p>
+	      </div>
+	      <div class="form-input password">
+	        <input type="password" id="password">
+	        <label for="password">Clave</label>
+	        <p class="mensajeError"></p>
+	      </div>
+	      <div class="form-input repeatPassword">
+	        <input type="password" id="repeatPassword">
+	        <label for="repeatPassword">Confirme su clave</label>
+	        <p class="mensajeError"></p>
+	      </div>
+	      <div class="form-boton" >
+	        <input type="submit" value="Enviar">
+	      </div>
+	      <p class="mensajeCorrecto"></p>
+	    </form>
+	  </div>
+	  <script src="js/form.js"></script>
+	</body>
+	</html>	
