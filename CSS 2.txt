@@ -80,5 +80,5 @@ padding: 10px 130px;
   color:red;
   
 }
-color: red ize: 15px
-;
+color: red ize: 15px;
+}
